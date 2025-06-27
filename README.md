@@ -121,5 +121,21 @@ Add visual feedback (e.g., color transitions, icons) for correct and incorrect a
 
 Use smooth animations during quiz transitions to create a more modern and engaging user interface.
 
+9. 🎯 Difficulty Levels
+Each flashcard can be assigned a difficulty level (e.g., Easy, Medium, Hard).
+
+Users can choose to start quizzes based on selected difficulty levels.
+
+Enhances personalization and allows better tracking of user progress over time.
+10. 🃏 Lifeline Features (Jokers)
+Add optional lifeline/joker features to assist users during quizzes:
+
+Eliminate Options: Remove one or more incorrect answers.
+
+Hint: Show a predefined clue for the current question.
+
+Phone a Friend (simulated): Provide an extra hint or fun message as if calling for help.
+
+Each lifeline can be limited in use per quiz (e.g., only once per session).
 
 
