@@ -47,4 +47,51 @@ npm install bootstrap
 
 4. Restart your Angular application to load Bootstrap styles.
 
+## Features that can be improved
+
+1. 🗂️ Category System
+Allow users to group flashcards into categories such as:
+
+Math, History, Science, etc.
+
+When starting a quiz, users can choose a specific category.
+
+Makes learning more organized and goal-oriented.
+
+2. 📊 Score Tracking & Statistics
+Store and display historical quiz scores to help users track their progress over time:
+
+Example: “You scored 7/10 last time on Math.”
+
+Identify which questions were answered incorrectly.
+
+Visual indicators or charts for progress (optional).
+
+3. ⏱️ Timer for Each Question
+Add a countdown timer (e.g., 30 seconds) per quiz question:
+
+Automatically moves to the next question when time runs out.
+
+Adds challenge and simulates time-pressured scenarios.
+
+4. 📈 Performance Analytics
+Based on quiz results:
+
+Calculate success rates per category or user.
+
+Track improvement trends over time.
+
+Ideal for use in learning environments or employee training.
+
+5. 👥 Role-Based Access (RBAC)
+Introduce a simple login system with user roles:
+
+Role	Abilities
+Admin	Create and manage flashcards/quizzes
+User (Student/Employee)	Play quizzes and track own scores
+
+Different UI and functionality based on the logged-in role.
+
+Useful for organizations, schools, or training platforms.
+
 
