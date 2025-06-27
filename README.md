@@ -127,6 +127,7 @@ Each flashcard can be assigned a difficulty level (e.g., Easy, Medium, Hard).
 Users can choose to start quizzes based on selected difficulty levels.
 
 Enhances personalization and allows better tracking of user progress over time.
+
 10. 🃏 Lifeline Features (Jokers)
 Add optional lifeline/joker features to assist users during quizzes:
 
