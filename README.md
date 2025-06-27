@@ -94,4 +94,32 @@ Different UI and functionality based on the logged-in role.
 
 Useful for organizations, schools, or training platforms.
 
+6. ⭐ User Feedback & Rating System
+Add a simple survey or rating prompt at the end of each quiz session to collect user feedback:
+
+Example questions:
+
+"Did you enjoy the quiz experience?"
+
+"Was the difficulty level appropriate?"
+
+"Any suggestions for improvement?"
+
+Users can rate the quiz (e.g., 1 to 5 stars).
+
+Optional open-text feedback field for detailed suggestions.
+
+💡 This feedback can be stored and analyzed by the admin to continuously improve the quality and relevance of the flashcards and UI experience.
+
+7. 💡 Hint System
+Users can optionally click a “Show Hint” button for challenging questions.
+
+Each question can have a predefined hint to assist the user without giving away the answer.
+
+8. ✨ Animations and UI Enhancements
+Add visual feedback (e.g., color transitions, icons) for correct and incorrect answers.
+
+Use smooth animations during quiz transitions to create a more modern and engaging user interface.
+
+
 
