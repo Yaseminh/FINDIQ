@@ -114,4 +114,8 @@ Each lifeline can be limited in use per quiz (e.g., only once per session).
 During the quiz, if the user accumulates 3 wrong answers (regardless of how many joker lifelines are used), the system will deduct one correct answer point from their total score.
 This adds an extra layer of challenge and encourages accuracy throughout the quiz.
 
+12. 🏆 Reward System for Perfect Scores
+If a user answers all 10 questions correctly in a quiz, they receive a special reward or badge as recognition for their achievement.
+This feature motivates users to strive for perfect scores and enhances engagement.
+
 
