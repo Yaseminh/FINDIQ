@@ -1,0 +1,21 @@
+<div class="flashcard-form">
+  <form [formGroup]="flashcardForm">
+    <div class="form-group">
+      <label>Question:</label>
+      <input type="text" formControlName="question" required>
+    </div>
+    <div class="form-group">
+      <label>Correct Answers (comma separated):</label>
+      <input type="text" formControlName="correctAnswers" required>
+      <small>Example: Paris, Lyon</small>
+    </div>
+    <div class="form-group">
+      <label>Wrong Answers (comma separated):</label>
+      <input type="text" formControlName="wrongAnswers" required>
+      <small>Example: London, Berlin, Madrid</small>
+    </div>
+    <button class="btn" style="background-color:  #ff0000; color: white;" type="button" (click)="addFlashcard()" [disabled]="flashcardForm.invalid">
+      Add Flashcard
+    </button>
+  </form>
+</div>

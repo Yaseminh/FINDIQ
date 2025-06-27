@@ -1,0 +1,63 @@
+/* src/app/components/quiz-game/quiz-game.component.css */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.progress {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.options button {
+  padding: 10px;
+  text-align: left;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.options button.selected {
+  background-color: #e0e0e0;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+.option-item {
+  display: block;
+  margin: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.option-item input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+input[type="checkbox"] {
+  accent-color: #631a75;
+}
+.option-item:hover {
+  background-color: rgba(147, 112, 219, 0.3);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.flashcard-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-group label,
+.form-group input,
+.form-group small {
+  display: block;
+  width: 100%;
+}
+
+.form-group input {
+  padding: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button.btn-primary {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.form-group label {
+  margin-bottom: 6px; /* Label ile input arası boşluk */
+  display: block;
+  font-weight: 600;
+}
+
+.form-group input {
+  margin-bottom: 6px; /* Input ile small arası boşluk */
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.form-group small {
+  display: block;
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 10px; /* Küçük açıklama ile sonraki grup arası boşluk */
+}
+

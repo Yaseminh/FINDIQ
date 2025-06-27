@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="container">
+    <div class="mb-4 text-center">
+      <h1 class="mb-2">Flashcard Quiz Game</h1>
+      <img src="assets/oim5b6c8h6891.png" alt="Line" style="width: 100%; height: 63px; object-fit: cover;">
+    </div>
+    <div class="view-switcher">
+      <button class="btn me-2"  style="background-color: #a42bc2; color: white;" (click)="showQuizView()" [class.active]="currentView() === 'quiz'">
+        Play Quiz
+      </button>
+      <button class="btn text-white"  style="background-color: #ff0000; color: white;"  (click)="showAddView()" [class.active]="currentView() === 'add'">
+        Add Flashcards
+      </button>
+    </div>
+  </div>
+  <app-quiz-game
+    *ngIf="currentView() === 'quiz' && !quizEnded()"
+    (quizCompleted)="onQuizCompleted($event)">
+  </app-quiz-game>
+  <div *ngIf="currentView() === 'quiz' && quizEnded()">
+    <h2>Your final score is: {{ score() }} / {{ totalQuestions }}</h2>
+    <button (click)="showQuizView()">Restart Quiz</button>
+  </div>
+  <app-add-flashcard *ngIf="currentView() === 'add'"></app-add-flashcard>
+</div>

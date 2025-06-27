@@ -1,0 +1,29 @@
+<div class="quiz-container" *ngIf="questions.length > 0 && questions[currentQuestionIndex]">
+  <div class="progress" style="background-color: #631a75; color:white">
+    Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}
+  </div>
+
+  <h2>{{ questions[currentQuestionIndex].question }}</h2>
+
+  <div class="options">
+    <label *ngFor="let option of questions[currentQuestionIndex].options" class="option-item">
+      <input
+        type="checkbox"
+        [value]="option.trim()"
+        (change)="onCheckboxChange($event)"
+        [checked]="selectedAnswers.includes(option.trim())" />
+      {{ option }}
+    </label>
+  </div>
+
+  <button
+    class="btn" style="background-color:  #ff0000; color: white;"
+    (click)="submitAnswer()"
+    [disabled]="selectedAnswers.length === 0">
+    {{ currentQuestionIndex < questions.length - 1 ? 'Next' : 'Finish' }}
+  </button>
+</div>
+
+<div *ngIf="questions.length === 0">
+  There is no questions
+</div>
