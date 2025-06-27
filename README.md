@@ -139,4 +139,8 @@ Phone a Friend (simulated): Provide an extra hint or fun message as if calling f
 
 Each lifeline can be limited in use per quiz (e.g., only once per session).
 
+11. ❌ Penalty Rule: Losing a Correct Point After 3 Wrong Answers
+During the quiz, if the user accumulates 3 wrong answers (regardless of how many joker lifelines are used), the system will deduct one correct answer point from their total score.
+This adds an extra layer of challenge and encourages accuracy throughout the quiz.
+
 
